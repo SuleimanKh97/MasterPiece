@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تصنيفات المواشي - سوق البركة</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- الهيدر -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="شعار الموقع">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html">عن الموقع</a></li>
+                <li><a href="categories.html">تصنيفات المواشي</a></li>
+                <li><a href="#">كيفية الشراء/البيع</a></li>
+                <li><a href="#">اتصل بنا</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="login.html"><button>تسجيل الدخول</button></a>
+            <a href="reg.html"><button>التسجيل</button></a>
+        </div>
+    </header>
+
+    <!-- المحتوى الرئيسي -->
+    <main class="categories-page">
+        <div class="container">
+            <!-- عنوان الصفحة -->
+            <section class="page-header">
+                <h1>تصنيفات المواشي</h1>
+                <p>تصفح جميع أنواع المواشي المتوفرة</p>
+            </section>
+
+            <!-- قسم الفلترة والبحث -->
+            <section class="filters-section">
+                <div class="search-bar">
+                    <input type="text" placeholder="ابحث عن المواشي...">
+                    <button type="submit">بحث</button>
+                </div>
+
+                <div class="filters-container">
+                    <!-- فلتر النوع -->
+                    <div class="filter-group">
+                        <h3>النوع</h3>
+                        <select>
+                            <option value="">جميع الأنواع</option>
+                            <option value="sheep">أغنام</option>
+                            <option value="cows">أبقار</option>
+                            <option value="camels">إبل</option>
+                            <option value="goats">ماعز</option>
+                        </select>
+                    </div>
+
+                    <!-- فلتر السعر -->
+                    <div class="filter-group">
+                        <h3>نطاق السعر</h3>
+                        <div class="price-range">
+                            <input type="number" placeholder="السعر الأدنى">
+                            <span>إلى</span>
+                            <input type="number" placeholder="السعر الأعلى">
+                        </div>
+                    </div>
+
+                    <!-- فلتر العمر -->
+                    <div class="filter-group">
+                        <h3>العمر</h3>
+                        <select>
+                            <option value="">جميع الأعمار</option>
+                            <option value="young">صغير (أقل من سنة)</option>
+                            <option value="adult">بالغ (1-3 سنوات)</option>
+                            <option value="old">كبير (أكثر من 3 سنوات)</option>
+                        </select>
+                    </div>
+
+                    <!-- فلتر المنطقة -->
+                    <div class="filter-group">
+                        <h3>المنطقة</h3>
+                        <select>
+                            <option value="">جميع المناطق</option>
+                            <option value="amman">عمان</option>
+                            <option value="irbid">إربد</option>
+                            <option value="zarqa">الزرقاء</option>
+                            <option value="aqaba">العقبة</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- خيارات الترتيب -->
+                <div class="sort-options">
+                    <span>ترتيب حسب:</span>
+                    <select>
+                        <option value="newest">الأحدث</option>
+                        <option value="price-low">السعر: من الأقل للأعلى</option>
+                        <option value="price-high">السعر: من الأعلى للأقل</option>
+                        <option value="popular">الأكثر شعبية</option>
+                    </select>
+                </div>
+            </section>
+
+            <!-- عرض المنتجات -->
+            <section class="products-grid">
+                <!-- منتج 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="media/sheep1.jpg" alt="خروف للبيع">
+                        <span class="product-badge">جديد</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>خروف بلدي</h3>
+                        <p class="price">800 دينار</p>
+                        <p class="location">عمان</p>
+                        <div class="product-details">
+                            <span>العمر: سنة</span>
+                            <span>الوزن: 45 كجم</span>
+                        </div>
+                        <button class="view-details">عرض التفاصيل</button>
+                    </div>
+                </div>
+
+                <!-- منتج 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="media/cow1.jpg" alt="بقرة للبيع">
+                    </div>
+                    <div class="product-info">
+                        <h3>بقرة هولندي</h3>
+                        <p class="price">2500 دينار</p>
+                        <p class="location">إربد</p>
+                        <div class="product-details">
+                            <span>العمر: سنتين</span>
+                            <span>الوزن: 400 كجم</span>
+                        </div>
+                        <button class="view-details">عرض التفاصيل</button>
+                    </div>
+                </div>
+
+                <!-- منتج 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="media/camel1.jpg" alt="جمل للبيع">
+                        <span class="product-badge featured">مميز</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>جمل عربي أصيل</h3>
+                        <p class="price">5000 دينار</p>
+                        <p class="location">العقبة</p>
+                        <div class="product-details">
+                            <span>العمر: 3 سنوات</span>
+                            <span>الوزن: 500 كجم</span>
+                        </div>
+                        <button class="view-details">عرض التفاصيل</button>
+                    </div>
+                </div>
+
+                <!-- إضافة المزيد من المنتجات هنا -->
+            </section>
+
+            <!-- ترقيم الصفحات -->
+            <div class="pagination">
+                <button class="prev-page">السابق</button>
+                <div class="page-numbers">
+                    <button class="active">1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <span>...</span>
+                    <button>10</button>
+                </div>
+                <button class="next-page">التالي</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- الفوتر -->
+    <footer>
+        <div class="footer-content">
+            <!-- الشعار -->
+            <div class="footer-section">
+                <img src="logo.png" alt="شعار الموقع" class="footer-logo">
+                <p>موقع بيع وشراء المواشي بكل سهولة وأمان.</p>
+            </div>
+
+            <!-- خدمات -->
+            <div class="footer-section">
+                <h3>الخدمات</h3>
+                <ul>
+                    <li><a href="#">بيع وشراء المواشي</a></li>
+                    <li><a href="#">توفير العلف والفرش</a></li>
+                    <li><a href="#">العضوية المميزة</a></li>
+                </ul>
+            </div>
+
+            <!-- الدعم -->
+            <div class="footer-section">
+                <h3>الدعم</h3>
+                <ul>
+                    <li><a href="#">مساعدة & الأسئلة الشائعة</a></li>
+                    <li><a href="#">تحميل التطبيق</a></li>
+                    <li><a href="#">خريطة الموقع</a></li>
+                </ul>
+            </div>
+
+            <!-- الشركة -->
+            <div class="footer-section">
+                <h3>الشركة</h3>
+                <ul>
+                    <li><a href="#">المدونة والبث الصوتي</a></li>
+                    <li><a href="#">عن الشركة</a></li>
+                    <li><a href="#">الشروط والخصوصية</a></li>
+                    <li><a href="#">إدارة الكوكيز</a></li>
+                </ul>
+            </div>
+
+            <!-- الاشتراك في النشرة الإخبارية -->
+            <div class="footer-section">
+                <h3>اشترك في النشرة الإخبارية</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="أدخل بريدك الإلكتروني" required>
+                    <button type="submit">اشترك</button>
+                </form>
+            </div>
+
+            <!-- مواقع التواصل الاجتماعي -->
+            <div class="footer-section">
+                <h3>تابعنا على</h3>
+                <div class="social-links">
+                    <a href="#"><img src="media/icons8-facebook.svg" alt="فيسبوك"></a>
+                    <a href="#"><img src="media/icons8-x.svg" alt="تويتر"></a>
+                    <a href="#"><img src="media/icons8-instagram (1).svg" alt="إنستجرام"></a>
+                    <a href="#"><img src="media/icons8-youtube.svg" alt="يوتيوب"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- حقوق النشر -->
+        <div class="footer-bottom">
+            <p>© 2025 موقع بيع وشراء المواشي. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html> 

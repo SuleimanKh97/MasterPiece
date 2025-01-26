@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تفاصيل السلعة - سوق البركة</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            color: white;
+        }
+
+        header .logo img {
+            height: 50px;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin-left: 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        header .auth-buttons button {
+            background-color: white;
+            color: #4CAF50;
+            border: none;
+            border-radius: 10px;
+            padding: 8px 16px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        .container {
+            margin: 20px auto;
+            max-width: 1200px;
+            padding: 15px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* تحسين بطاقة المنتج الرئيسية */
+        .product-card {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 15px;
+        }
+
+        .product-image {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .product-details {
+            padding: 20px;
+        }
+
+        .product-title {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .product-price {
+            font-size: 24px;
+            color: #28a745;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .product-description {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 20px;
+        }
+
+        .action-buttons button {
+            flex: 1;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .action-buttons button:first-child {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .action-buttons button:last-child {
+            background-color: #fff;
+            color: #28a745;
+            border: 2px solid #28a745;
+        }
+
+        .action-buttons button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        /* تحسين المنتجات ذات الصلة */
+        .related-products {
+            margin-top: 60px;
+        }
+
+        .related-products h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .products-wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .related-products .product-card {
+            display: flex;
+            flex-direction: column;
+            background: #fff;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .related-products .product-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .related-products .product-image {
+            height: 200px;
+            width: 100%;
+        }
+
+        .related-products .product-details {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .related-products .product-title {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .related-products .product-price {
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .footer-section {
+            max-width: 250px;
+            text-align: right;
+        }
+
+        .footer-logo {
+            width: 150px;
+            margin-bottom: 15px;
+        }
+
+        .footer-section h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #4CAF50;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section ul li a:hover {
+            color: #4CAF50;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 10px;
+        }
+
+        .newsletter-form input {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 70%;
+        }
+
+        .newsletter-form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .newsletter-form button:hover {
+            background-color: #45a049;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-links img {
+            width: 30px;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .social-links img:hover {
+            transform: translateY(-5px);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #444;
+            padding-top: 20px;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+
+        /* تحسينات للتجاوب */
+        @media (max-width: 768px) {
+            .product-card {
+                grid-template-columns: 1fr;
+            }
+
+            .products-wrapper {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .products-wrapper {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="شعار الموقع">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="#">عن الموقع</a></li>
+                <li><a href="#">تصنيفات المواشي</a></li>
+                <li><a href="#">كيفية الشراء/البيع</a></li>
+                <li><a href="#">اتصل بنا</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="login.html"><button>تسجيل الدخول</button></a>
+            <a href="reg.html"><button>التسجيل</button></a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cdn.salla.sa/EKKXx/92f05c47-d12c-4140-b5fc-a682ab7980ff-1000x1000-QjUBd80vuR0rUkG336dlRwkBzqtkGK6USKdQ3hl9.jpg" alt="صورة السلعة">
+            </div>
+            <div class="product-details">
+                <h1 class="product-title">تيس عارضي كبير</h1>
+                <p class="product-price">1391.30 SAR</p>
+                <p class="product-description">
+                    (تيس عارضي) هو ذكر الماعز وأحد سلالات الماعز المعروفة بشبه الجزيرة العربية. يتميز بطول الأذن وجسم خفيف ورشيق، كما يتميز بجودة اللحم ولذته وبياضه.
+                </p>
+                <div class="action-buttons">
+                    <button>إضافة إلى السلة</button>
+                    <button>شراء الآن</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="related-products">
+            <h2>منتجات ذات صلة</h2>
+            <div class="products-wrapper">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.salla.sa/EKKXx/92f05c47-d12c-4140-b5fc-a682ab7980ff-1000x1000-QjUBd80vuR0rUkG336dlRwkBzqtkGK6USKdQ3hl9.jpg" alt="صورة السلعة">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">تيس عارضي صغير</h3>
+                        <p class="product-price">800.00 SAR</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.salla.sa/EKKXx/92f05c47-d12c-4140-b5fc-a682ab7980ff-1000x1000-QjUBd80vuR0rUkG336dlRwkBzqtkGK6USKdQ3hl9.jpg" alt="صورة السلعة">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">تيس عارضي متوسط</h3>
+                        <p class="product-price">1000.00 SAR</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.salla.sa/EKKXx/92f05c47-d12c-4140-b5fc-a682ab7980ff-1000x1000-QjUBd80vuR0rUkG336dlRwkBzqtkGK6USKdQ3hl9.jpg" alt="صورة السلعة">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">تيس عارضي كبير</h3>
+                        <p class="product-price">1391.30 SAR</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="logo.png" alt="شعار الموقع" class="footer-logo">
+                <p>موقع بيع وشراء المواشي بكل سهولة وأمان.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>الخدمات</h3>
+                <ul>
+                    <li><a href="#">بيع وشراء المواشي</a></li>
+                    <li><a href="#">توفير العلف والفرش</a></li>
+                    <li><a href="#">العضوية المميزة</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>الدعم</h3>
+                <ul>
+                    <li><a href="#">مساعدة & الأسئلة الشائعة</a></li>
+                    <li><a href="#">تحميل التطبيق</a></li>
+                    <li><a href="#">خريطة الموقع</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>الشركة</h3>
+                <ul>
+                    <li><a href="#">المدونة والبث الصوتي</a></li>
+                    <li><a href="#">عن الشركة</a></li>
+                    <li><a href="#">الشروط والخصوصية</a></li>
+                    <li><a href="#">إدارة الكوكيز</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>اشترك في النشرة الإخبارية</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="أدخل بريدك الإلكتروني" required>
+                    <button type="submit">اشترك</button>
+                </form>
+            </div>
+
+            <div class="footer-section">
+                <h3>تابعنا على</h3>
+                <div class="social-links">
+                    <a href="#"><img src="media/icons8-facebook.svg" alt="فيسبوك"></a>
+                    <a href="#"><img src="media/icons8-x.svg" alt="تويتر"></a>
+                    <a href="#"><img src="media/icons8-instagram (1).svg" alt="إنستجرام"></a>
+                    <a href="#"><img src="media/icons8-youtube.svg" alt="يوتيوب"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 موقع بيع وشراء المواشي. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

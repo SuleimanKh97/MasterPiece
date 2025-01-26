@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>تسجيل جديد - متجر شقرة</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.makane.com/static/vetrina/css/bootstrap.min-4.6.2.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap">
+
+    <style>
+         body {
+            text-align: right;
+            font-family: 'Cairo', sans-serif;
+            background: url('media/360_F_473117031_2hND1vrQrU6HPzMvJqpsgMsJk3xV1eHi.jpg') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .form-container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            margin-top: 30px;
+        }
+        .form-title {
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+        .services-section {
+            margin-top: 50px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        .form-control {
+            margin-bottom: 15px;
+        }
+        .btn-main {
+            background: linear-gradient(to right, #007bff, #0056b3);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .btn-main:hover {
+            background-position: right;
+        }
+        .signin-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .signin-link a {
+            color: #007bff;
+        }
+    </style>
+
+    <script>
+        function validateRegistrationForm() {
+            const email = document.getElementById("email");
+            const password = document.getElementById("password");
+            const confirmPassword = document.getElementById("confirm-password");
+            const name = document.getElementById("name");
+
+            if (!name.value.trim() || !email.value.trim() || !password.value.trim() || !confirmPassword.value.trim()) {
+                alert("يرجى ملء جميع الحقول المطلوبة");
+                return false;
+            }
+
+            if (password.value !== confirmPassword.value) {
+                alert("كلمتا المرور غير متطابقتين");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="form-container">
+        <h2 class="form-title">إنشاء حساب جديد</h2>
+        <form onsubmit="return validateRegistrationForm();">
+            <input type="text" id="name" class="form-control" placeholder="الاسم الكامل" required>
+            <input type="email" id="email" class="form-control" placeholder="الإيميل" required>
+            <div class="input-group">
+                <input type="password" id="password" class="form-control" placeholder="كلمة السر" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="confirm-password" class="form-control" placeholder="تأكيد كلمة السر" required>
+            </div>
+            <button type="submit" class="btn-main">إنشاء حساب</button>
+        </form>
+        <p class="signin-link">لديك حساب؟ <a href="login.html">تسجيل الدخول</a></p>
+    </div>
+
+    <div class="services-section">
+        <h2 class="services-title">الخدمات الاستشارية</h2>
+        <p class="service-item">✔ استشارات حول اختيار أفضل أنواع المواشي المناسبة لمتطلباتك.</p>
+        <p class="service-item">✔ نصائح حول التغذية السليمة للمواشي.</p>
+        <p class="service-item">✔ إرشادات حول عمليات البيع والشراء بطريقة آمنة وفعّالة.</p>
+        <p class="service-item">✔ دعم فني واستشارات متاحة على مدار الساعة.</p>
+    </div>
+</body>
+
+</html>

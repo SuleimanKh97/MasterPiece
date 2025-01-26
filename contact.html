@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا - سوق البركة</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- الهيدر -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="شعار الموقع">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html">عن الموقع</a></li>
+                <li><a href="categories.html">تصنيفات المواشي</a></li>
+                <li><a href="#">كيفية الشراء/البيع</a></li>
+                <li><a href="contact.html">اتصل بنا</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="login.html"><button>تسجيل الدخول</button></a>
+            <a href="reg.html"><button>التسجيل</button></a>
+        </div>
+    </header>
+
+    <!-- المحتوى الرئيسي -->
+    <main class="contact-page">
+        <div class="container">
+            <!-- عنوان الصفحة -->
+            <section class="page-header">
+                <h1>اتصل بنا</h1>
+                <p>نحن هنا لمساعدتك - تواصل معنا بأي وقت</p>
+            </section>
+
+            <div class="contact-content">
+                <!-- معلومات التواصل -->
+                <section class="contact-info">
+                    <h2>معلومات التواصل</h2>
+
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <div class="info-icon">📞</div>
+                            <h3>اتصل بنا</h3>
+                            <p>خدمة العملاء: 0777777777</p>
+                            <p>الدعم الفني: 0788888888</p>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">✉️</div>
+                            <h3>راسلنا</h3>
+                            <p>البريد العام: info@albaraka.com</p>
+                            <p>الدعم الفني: support@albaraka.com</p>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">🕒</div>
+                            <h3>ساعات العمل</h3>
+                            <p>السبت - الخميس: 9:00 صباحاً - 6:00 مساءً</p>
+                            <p>الجمعة: مغلق</p>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">📍</div>
+                            <h3>موقعنا</h3>
+                            <p>عمان، الأردن</p>
+                            <p>شارع المدينة المنورة</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- نموذج الاتصال -->
+                <section class="contact-form-section">
+                    <h2>أرسل رسالة</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل*</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">رقم الهاتف</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">الموضوع*</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">اختر الموضوع</option>
+                                <option value="support">الدعم الفني</option>
+                                <option value="sales">المبيعات</option>
+                                <option value="complaint">شكوى</option>
+                                <option value="suggestion">اقتراح</option>
+                                <option value="other">أخرى</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">الرسالة*</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" required>
+                                أوافق على سياسة الخصوصية وشروط الاستخدام
+                            </label>
+                        </div>
+
+                        <button type="submit" class="submit-button">إرسال الرسالة</button>
+                    </form>
+                </section>
+            </div>
+
+            <!-- خريطة الموقع -->
+            <section class="map-section">
+                <h2>موقعنا على الخريطة</h2>
+                <div class="map-container">
+                    <!-- يمكن إضافة خريطة جوجل هنا -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3384.7098875800633!2d35.8969223!3d31.9794272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca1e04d5333cf%3A0x1df0bb3ef650dc18!2z2LTYp9ix2Lkg2KfZhNmF2K_ZitmG2Kkg2KfZhNmF2YbZiNix2KnYjCDYudmF2ZHYp9mG!5e0!3m2!1sar!2sjo!4v1647856732045!5m2!1sar!2sjo"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- الفوتر -->
+    <footer>
+        <div class="footer-content">
+            <!-- الشعار -->
+            <div class="footer-section">
+                <img src="logo.png" alt="شعار الموقع" class="footer-logo">
+                <p>موقع بيع وشراء المواشي بكل سهولة وأمان.</p>
+            </div>
+
+            <!-- خدمات -->
+            <div class="footer-section">
+                <h3>الخدمات</h3>
+                <ul>
+                    <li><a href="#">بيع وشراء المواشي</a></li>
+                    <li><a href="#">توفير العلف والفرش</a></li>
+                    <li><a href="#">العضوية المميزة</a></li>
+                </ul>
+            </div>
+
+            <!-- الدعم -->
+            <div class="footer-section">
+                <h3>الدعم</h3>
+                <ul>
+                    <li><a href="#">مساعدة & الأسئلة الشائعة</a></li>
+                    <li><a href="#">تحميل التطبيق</a></li>
+                    <li><a href="#">خريطة الموقع</a></li>
+                </ul>
+            </div>
+
+            <!-- الشركة -->
+            <div class="footer-section">
+                <h3>الشركة</h3>
+                <ul>
+                    <li><a href="#">المدونة والبث الصوتي</a></li>
+                    <li><a href="#">عن الشركة</a></li>
+                    <li><a href="#">الشروط والخصوصية</a></li>
+                    <li><a href="#">إدارة الكوكيز</a></li>
+                </ul>
+            </div>
+
+            <!-- الاشتراك في النشرة الإخبارية -->
+            <div class="footer-section">
+                <h3>اشترك في النشرة الإخبارية</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="أدخل بريدك الإلكتروني" required>
+                    <button type="submit">اشترك</button>
+                </form>
+            </div>
+
+            <!-- مواقع التواصل الاجتماعي -->
+            <div class="footer-section">
+                <h3>تابعنا على</h3>
+                <div class="social-links">
+                    <a href="#"><img src="media/icons8-facebook.svg" alt="فيسبوك"></a>
+                    <a href="#"><img src="media/icons8-x.svg" alt="تويتر"></a>
+                    <a href="#"><img src="media/icons8-instagram (1).svg" alt="إنستجرام"></a>
+                    <a href="#"><img src="media/icons8-youtube.svg" alt="يوتيوب"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- حقوق النشر -->
+        <div class="footer-bottom">
+            <p>© 2025 موقع بيع وشراء المواشي. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
