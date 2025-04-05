@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "Ggjl+s+rapm3/Pwsn0mrMVsvqWgD3AUK932A8zzWju0=",
+  "Source": "testMaster.Server",
+  "BasePath": "_content/testMaster.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\testmaster.client.esproj",
+      "Version": 2,
+      "Source": "testmaster.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

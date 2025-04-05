@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AE598D-8A73-9A34-CBF2-D97B47E97443}|testmaster.client\\testmaster.client.esproj|c:\\users\\eng.k\\documents\\map\\testmaster\\testmaster.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9AE598D-8A73-9A34-CBF2-D97B47E97443}|testmaster.client\\testmaster.client.esproj|solutionrelative:testmaster.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AE598D-8A73-9A34-CBF2-D97B47E97443}|testmaster.client\\testmaster.client.esproj|c:\\users\\eng.k\\documents\\map\\testmaster\\testmaster.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9AE598D-8A73-9A34-CBF2-D97B47E97443}|testmaster.client\\testmaster.client.esproj|solutionrelative:testmaster.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AE598D-8A73-9A34-CBF2-D97B47E97443}|testmaster.client\\testmaster.client.esproj|c:\\users\\eng.k\\documents\\map\\testmaster\\testmaster.client\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9AE598D-8A73-9A34-CBF2-D97B47E97443}|testmaster.client\\testmaster.client.esproj|solutionrelative:testmaster.client\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AE598D-8A73-9A34-CBF2-D97B47E97443}|testmaster.client\\testmaster.client.esproj|c:\\users\\eng.k\\documents\\map\\testmaster\\testmaster.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9AE598D-8A73-9A34-CBF2-D97B47E97443}|testmaster.client\\testmaster.client.esproj|solutionrelative:testmaster.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AE598D-8A73-9A34-CBF2-D97B47E97443}|testmaster.client\\testmaster.client.esproj|c:\\users\\eng.k\\documents\\map\\testmaster\\testmaster.client\\src\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B9AE598D-8A73-9A34-CBF2-D97B47E97443}|testmaster.client\\testmaster.client.esproj|solutionrelative:testmaster.client\\src\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AE598D-8A73-9A34-CBF2-D97B47E97443}|testmaster.client\\testmaster.client.esproj|c:\\users\\eng.k\\documents\\map\\testmaster\\testmaster.client\\src\\app\\home\\home.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9AE598D-8A73-9A34-CBF2-D97B47E97443}|testmaster.client\\testmaster.client.esproj|solutionrelative:testmaster.client\\src\\app\\home\\home.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AE598D-8A73-9A34-CBF2-D97B47E97443}|testmaster.client\\testmaster.client.esproj|c:\\users\\eng.k\\documents\\map\\testmaster\\testmaster.client\\src\\app\\home\\home.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9AE598D-8A73-9A34-CBF2-D97B47E97443}|testmaster.client\\testmaster.client.esproj|solutionrelative:testmaster.client\\src\\app\\home\\home.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9AE598D-8A73-9A34-CBF2-D97B47E97443}|testmaster.client\\testmaster.client.esproj|c:\\users\\eng.k\\documents\\map\\testmaster\\testmaster.client\\src\\app\\home\\home.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B9AE598D-8A73-9A34-CBF2-D97B47E97443}|testmaster.client\\testmaster.client.esproj|solutionrelative:testmaster.client\\src\\app\\home\\home.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\src\\main.ts",
+              "RelativeDocumentMoniker": "testmaster.client\\src\\main.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\src\\main.ts*",
+              "RelativeToolTip": "testmaster.client\\src\\main.ts*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-04T18:53:01.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "testmaster.client\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\src\\app\\app.module.ts*",
+              "RelativeToolTip": "testmaster.client\\src\\app\\app.module.ts*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-04T18:50:21.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "testmaster.client\\src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "testmaster.client\\src\\app\\app-routing.module.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-04T18:46:18.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "home.component.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\src\\app\\home\\home.component.ts",
+              "RelativeDocumentMoniker": "testmaster.client\\src\\app\\home\\home.component.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\src\\app\\home\\home.component.ts",
+              "RelativeToolTip": "testmaster.client\\src\\app\\home\\home.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-04T18:44:28.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "home.component.css",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\src\\app\\home\\home.component.css",
+              "RelativeDocumentMoniker": "testmaster.client\\src\\app\\home\\home.component.css",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\src\\app\\home\\home.component.css",
+              "RelativeToolTip": "testmaster.client\\src\\app\\home\\home.component.css",
+              "ViewState": "AgIAAPABAAAAAAAAAAAqwAkCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-04T18:43:34.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "home.component.html",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\src\\app\\home\\home.component.html",
+              "RelativeDocumentMoniker": "testmaster.client\\src\\app\\home\\home.component.html",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\src\\app\\home\\home.component.html",
+              "RelativeToolTip": "testmaster.client\\src\\app\\home\\home.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-04T18:43:21.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\src\\styles.css",
+              "RelativeDocumentMoniker": "testmaster.client\\src\\styles.css",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\src\\styles.css",
+              "RelativeToolTip": "testmaster.client\\src\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-04T18:30:06.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\src\\index.html",
+              "RelativeDocumentMoniker": "testmaster.client\\src\\index.html",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\testMaster\\testmaster.client\\src\\index.html",
+              "RelativeToolTip": "testmaster.client\\src\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-04T18:14:12.209Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

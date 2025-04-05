@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ENG.K\\Documents\\MAP\\ProjectTesting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B371F0F8-DA85-48CC-9A38-9E123C58DFE6}|projecttesting.client\\projecttesting.client.esproj|c:\\users\\eng.k\\documents\\map\\projecttesting\\projecttesting.client\\src\\app\\products\\product-list\\product-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B371F0F8-DA85-48CC-9A38-9E123C58DFE6}|projecttesting.client\\projecttesting.client.esproj|solutionrelative:projecttesting.client\\src\\app\\products\\product-list\\product-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B371F0F8-DA85-48CC-9A38-9E123C58DFE6}|projecttesting.client\\projecttesting.client.esproj|c:\\users\\eng.k\\documents\\map\\projecttesting\\projecttesting.client\\src\\app\\products\\product-list\\product-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B371F0F8-DA85-48CC-9A38-9E123C58DFE6}|projecttesting.client\\projecttesting.client.esproj|solutionrelative:projecttesting.client\\src\\app\\products\\product-list\\product-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B371F0F8-DA85-48CC-9A38-9E123C58DFE6}|projecttesting.client\\projecttesting.client.esproj|c:\\users\\eng.k\\documents\\map\\projecttesting\\projecttesting.client\\src\\app\\products\\product-detail\\product-detail.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B371F0F8-DA85-48CC-9A38-9E123C58DFE6}|projecttesting.client\\projecttesting.client.esproj|solutionrelative:projecttesting.client\\src\\app\\products\\product-detail\\product-detail.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B371F0F8-DA85-48CC-9A38-9E123C58DFE6}|projecttesting.client\\projecttesting.client.esproj|c:\\users\\eng.k\\documents\\map\\projecttesting\\projecttesting.client\\src\\app\\products\\product-detail\\product-detail.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B371F0F8-DA85-48CC-9A38-9E123C58DFE6}|projecttesting.client\\projecttesting.client.esproj|solutionrelative:projecttesting.client\\src\\app\\products\\product-detail\\product-detail.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B371F0F8-DA85-48CC-9A38-9E123C58DFE6}|projecttesting.client\\projecttesting.client.esproj|c:\\users\\eng.k\\documents\\map\\projecttesting\\projecttesting.client\\src\\app\\shared\\header\\header.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B371F0F8-DA85-48CC-9A38-9E123C58DFE6}|projecttesting.client\\projecttesting.client.esproj|solutionrelative:projecttesting.client\\src\\app\\shared\\header\\header.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B371F0F8-DA85-48CC-9A38-9E123C58DFE6}|projecttesting.client\\projecttesting.client.esproj|c:\\users\\eng.k\\documents\\map\\projecttesting\\projecttesting.client\\src\\app\\shared\\header\\header.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B371F0F8-DA85-48CC-9A38-9E123C58DFE6}|projecttesting.client\\projecttesting.client.esproj|solutionrelative:projecttesting.client\\src\\app\\shared\\header\\header.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "product-list.component.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\ProjectTesting\\projecttesting.client\\src\\app\\products\\product-list\\product-list.component.ts",
+              "RelativeDocumentMoniker": "projecttesting.client\\src\\app\\products\\product-list\\product-list.component.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\ProjectTesting\\projecttesting.client\\src\\app\\products\\product-list\\product-list.component.ts",
+              "RelativeToolTip": "projecttesting.client\\src\\app\\products\\product-list\\product-list.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-25T13:21:15.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "product-list.component.html",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\ProjectTesting\\projecttesting.client\\src\\app\\products\\product-list\\product-list.component.html",
+              "RelativeDocumentMoniker": "projecttesting.client\\src\\app\\products\\product-list\\product-list.component.html",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\ProjectTesting\\projecttesting.client\\src\\app\\products\\product-list\\product-list.component.html",
+              "RelativeToolTip": "projecttesting.client\\src\\app\\products\\product-list\\product-list.component.html",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAUwJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-25T13:20:58.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "product-detail.component.html",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\ProjectTesting\\projecttesting.client\\src\\app\\products\\product-detail\\product-detail.component.html",
+              "RelativeDocumentMoniker": "projecttesting.client\\src\\app\\products\\product-detail\\product-detail.component.html",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\ProjectTesting\\projecttesting.client\\src\\app\\products\\product-detail\\product-detail.component.html",
+              "RelativeToolTip": "projecttesting.client\\src\\app\\products\\product-detail\\product-detail.component.html",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAUwL8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-25T13:19:32.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "product-detail.component.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\ProjectTesting\\projecttesting.client\\src\\app\\products\\product-detail\\product-detail.component.ts",
+              "RelativeDocumentMoniker": "projecttesting.client\\src\\app\\products\\product-detail\\product-detail.component.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\ProjectTesting\\projecttesting.client\\src\\app\\products\\product-detail\\product-detail.component.ts",
+              "RelativeToolTip": "projecttesting.client\\src\\app\\products\\product-detail\\product-detail.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-25T13:19:19.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "header.component.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\ProjectTesting\\projecttesting.client\\src\\app\\shared\\header\\header.component.ts",
+              "RelativeDocumentMoniker": "projecttesting.client\\src\\app\\shared\\header\\header.component.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\ProjectTesting\\projecttesting.client\\src\\app\\shared\\header\\header.component.ts",
+              "RelativeToolTip": "projecttesting.client\\src\\app\\shared\\header\\header.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-25T13:16:51.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "header.component.html",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\ProjectTesting\\projecttesting.client\\src\\app\\shared\\header\\header.component.html",
+              "RelativeDocumentMoniker": "projecttesting.client\\src\\app\\shared\\header\\header.component.html",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\ProjectTesting\\projecttesting.client\\src\\app\\shared\\header\\header.component.html",
+              "RelativeToolTip": "projecttesting.client\\src\\app\\shared\\header\\header.component.html",
+              "ViewState": "AgIAACsAAAAAAAAAAAAowEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-25T13:16:44.958Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

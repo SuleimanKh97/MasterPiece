@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\services\\auth\\auth.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\services\\auth\\auth.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\auth\\register\\register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\auth\\register\\register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\auth\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\auth\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\auth\\register\\register.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\auth\\register\\register.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\auth\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\auth\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\models\\user.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\models\\user.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\guard\\profile.guard.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\guard\\profile.guard.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\guard\\auth.guard.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\guard\\auth.guard.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\interceptors\\token.interceptor.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\interceptors\\token.interceptor.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\auth\\login\\login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\auth\\login\\login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\shared\\header\\header.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\shared\\header\\header.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\shared\\header\\header.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\shared\\header\\header.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\eng.k\\documents\\map\\test2master\\test2master.client\\src\\app\\auth\\register\\register.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\auth\\register\\register.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "token.interceptor.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\interceptors\\token.interceptor.ts",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\interceptors\\token.interceptor.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\interceptors\\token.interceptor.ts",
+              "RelativeToolTip": "test2master.client\\src\\app\\interceptors\\token.interceptor.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-05T19:26:48.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "profile.guard.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\guard\\profile.guard.ts",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\guard\\profile.guard.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\guard\\profile.guard.ts",
+              "RelativeToolTip": "test2master.client\\src\\app\\guard\\profile.guard.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-05T19:21:01.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "user.module.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\Models\\user.module.ts",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\Models\\user.module.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\Models\\user.module.ts",
+              "RelativeToolTip": "test2master.client\\src\\app\\Models\\user.module.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-05T19:08:07.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "auth.guard.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\guard\\auth.guard.ts",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\guard\\auth.guard.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\guard\\auth.guard.ts",
+              "RelativeToolTip": "test2master.client\\src\\app\\guard\\auth.guard.ts",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-05T19:00:51.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "auth.service.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\Services\\auth\\auth.service.ts",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\Services\\auth\\auth.service.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\Services\\auth\\auth.service.ts",
+              "RelativeToolTip": "test2master.client\\src\\app\\Services\\auth\\auth.service.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-05T18:42:46.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "header.component.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\Shared\\header\\header.component.ts",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\Shared\\header\\header.component.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\Shared\\header\\header.component.ts",
+              "RelativeToolTip": "test2master.client\\src\\app\\Shared\\header\\header.component.ts",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-05T12:31:22.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "test2master.client\\src\\app\\app-routing.module.ts",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-05T12:22:52.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "buyer-dashboard.component.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.ts",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.ts",
+              "RelativeToolTip": "test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.ts",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowBUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-05T12:19:44.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "buyer-dashboard.component.css",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.css",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.css",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.css",
+              "RelativeToolTip": "test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.css",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAqwAcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-05T12:19:28.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "buyer-dashboard.component.html",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.html",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.html",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.html",
+              "RelativeToolTip": "test2master.client\\src\\app\\buyer\\buyer-dashboard\\buyer-dashboard.component.html",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAmwLcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-05T12:19:10.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "login.component.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\auth\\login\\login.component.ts",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\auth\\login\\login.component.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\auth\\login\\login.component.ts",
+              "RelativeToolTip": "test2master.client\\src\\app\\auth\\login\\login.component.ts",
+              "ViewState": "AgIAAFkAAAAAAAAAAAArwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-05T12:15:52.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "login.component.css",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\auth\\login\\login.component.css",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\auth\\login\\login.component.css",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\auth\\login\\login.component.css",
+              "RelativeToolTip": "test2master.client\\src\\app\\auth\\login\\login.component.css",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAswHUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-05T12:15:39.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\app.module.ts",
+              "RelativeToolTip": "test2master.client\\src\\app\\app.module.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-05T12:13:08.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "register.component.ts",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\auth\\register\\register.component.ts",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\auth\\register\\register.component.ts",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\auth\\register\\register.component.ts",
+              "RelativeToolTip": "test2master.client\\src\\app\\auth\\register\\register.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-05T12:07:38.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "register.component.css",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\auth\\register\\register.component.css",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\auth\\register\\register.component.css",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\auth\\register\\register.component.css",
+              "RelativeToolTip": "test2master.client\\src\\app\\auth\\register\\register.component.css",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAowL4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-05T12:07:25.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "register.component.html",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\auth\\register\\register.component.html",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\auth\\register\\register.component.html",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\auth\\register\\register.component.html",
+              "RelativeToolTip": "test2master.client\\src\\app\\auth\\register\\register.component.html",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAgwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-05T12:07:10.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "login.component.html",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\auth\\login\\login.component.html",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\auth\\login\\login.component.html",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\auth\\login\\login.component.html",
+              "RelativeToolTip": "test2master.client\\src\\app\\auth\\login\\login.component.html",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-05T11:36:26.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "header.component.html",
+              "DocumentMoniker": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\Shared\\header\\header.component.html",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\Shared\\header\\header.component.html",
+              "ToolTip": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\src\\app\\Shared\\header\\header.component.html",
+              "RelativeToolTip": "test2master.client\\src\\app\\Shared\\header\\header.component.html",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAawJkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-05T11:34:00.94Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

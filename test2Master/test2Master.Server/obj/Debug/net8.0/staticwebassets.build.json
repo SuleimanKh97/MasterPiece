@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "dgWODK/1VsYY0v+aHDVpTWwn8TabQcwiuRt+0CdfZpk=",
+  "Source": "test2Master.Server",
+  "BasePath": "_content/test2Master.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\ENG.K\\Documents\\MAP\\test2Master\\test2master.client\\test2master.client.esproj",
+      "Version": 2,
+      "Source": "test2master.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

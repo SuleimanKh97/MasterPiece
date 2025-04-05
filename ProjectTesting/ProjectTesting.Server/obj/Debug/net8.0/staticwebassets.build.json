@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "ct9qplMY33wj3Ft+AvfX6/pMmx0Iqm+LayiB6gv4niI=",
+  "Source": "ProjectTesting.Server",
+  "BasePath": "_content/ProjectTesting.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\ENG.K\\Documents\\MAP\\ProjectTesting\\projecttesting.client\\projecttesting.client.esproj",
+      "Version": 2,
+      "Source": "projecttesting.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

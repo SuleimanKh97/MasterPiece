@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:57771",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\ENG.K\\Documents\\MAP\\ProjectTesting\\ProjectTesting.Server\\..\\projecttesting.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
